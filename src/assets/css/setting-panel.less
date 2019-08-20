@@ -1,0 +1,61 @@
+.setting-panel{
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow-y: auto;
+  background:#fff;
+  box-sizing: border-box;
+  border:1px solid #999;
+  &.move {
+    cursor: move;
+  }
+  .setting-header{
+    background: #F9F9F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid #999;
+    .el-button{
+      font-size: 14px;
+    }
+    p{
+      font-size: 14px;
+    }
+  }
+  .setting-body{
+    padding: 20px 15px;
+    label{
+      font-size: 12px !important;
+    }
+    .search-box{
+      width: 50%;
+      padding-bottom: 10px;
+    }
+  }
+}
+.setting-enter{
+  transform: translateX(500px);
+  opacity: 0;
+}
+.setting-enter-to{
+  transform: translateX(0);
+  opacity: 1;
+}
+.setting-enter-active{
+  transition: 0.5s;
+}
+.setting-leave{
+  opacity: 1;
+  transform: translateX(0);
+}
+.setting-leave-to{
+  opacity: 0;
+  transform: translateX(500px);
+}
+.setting-leave-active{
+  transition: 0.3s;
+}
