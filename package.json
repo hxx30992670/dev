@@ -11,7 +11,7 @@
     "babel-polyfill": "^6.26.0",
     "echarts": "^4.2.1",
     "element-ui": "^2.11.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.5.0",
     "jquery-ui": "^1.12.1",
     "jsplumb": "^2.9.0",
     "md5": "^2.2.1",
