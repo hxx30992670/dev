@@ -15,7 +15,7 @@
     "jquery-ui": "^1.12.1",
     "jsplumb": "^2.9.0",
     "md5": "^2.2.1",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.12.0",
     "register-service-worker": "^1.6.2",
     "sass-loader": "^7.1.0",
